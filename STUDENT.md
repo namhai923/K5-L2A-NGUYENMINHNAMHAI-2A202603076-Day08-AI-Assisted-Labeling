@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): l2A
 - Tài khoản GitHub: https://github.com/namhai923
 - Repo bài nộp (URL): https://github.com/namhai923/K5-L2A-NGUYENMINHNAMHAI-2A202603076-Day08-AI-Assisted-Labeling
-- Commit chốt bài (hash): <<>>
+- Commit chốt bài (hash): b22057658d9fbb437d2af0204e2781d6a034d126
 - Máy: Window, không có GPU
 - CVAT (Docker): v2.74.1
 
