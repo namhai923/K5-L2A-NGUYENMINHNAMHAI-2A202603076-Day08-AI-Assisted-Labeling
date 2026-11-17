@@ -1,0 +1,10 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,khong,2A202603076,
+img_006.jpg,67,sai_vi_tri_kich_thuoc,2A202603076,Gộp 2 xe máy trong 1 box
+img_006.jpg,68,thua,2A202603076,Không có người; người thật là #89
+img_013.jpg,,khong,2A202603076,
+img_014.jpg,140,sai_vi_tri_kich_thuoc,2A202603076,Cắt mất tay lái và gương
+img_018.jpg,192,thua,2A202603076,Cao 16 px < 20 px
+img_024.jpg,,khong,2A202603076,
+img_029.jpg,400,sai_vi_tri_kich_thuoc,2A202603076,Gộp nhiều xe máy mờ trong 1 box
+img_035.jpg,471,sai_vi_tri_kich_thuoc,2A202603076,ignore_region phủ xích lô #470 và tài xế #488

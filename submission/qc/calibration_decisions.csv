@@ -1,1 +1,12 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_026,cau_hoi_mo,Xe máy đỗ dày gần camera,Tách được ranh giới (thấy 1 bánh + tay lái) thì gán từng xe; không thì ignore_region,"4.1.6: không gộp ≥ 2 xe vào 1 box",v1.1
+CAL-02,img_009,cau_hoi_mo,Hàng nhô ra khỏi xe,Box / mask không gồm hàng nhô > 20%; khay gắn cố định ≤ 20% thì gồm,4.1.5 + 4.2,v1.1
+CAL-03,img_013,cau_hoi_mo,Người trong xe ba bánh có mui,Gán person khi thấy đầu + vai,"4.1.2: thay ngưỡng 20% ước bằng mắt",v1.1
+CAL-04,img_017,cau_hoi_mo,Kính xe và biển TAXI trên nóc,Kính + biển nóc thuộc mask xe; người sau kính không gán,4.2.3,v1.1
+CAL-05,img_029,cau_hoi_mo,Box chồng nhau ảnh đêm,Cùng lớp IoU > 0.7: giữ 1 box; mờ không tách được: ignore_region,4.1 (mới),v1.1
+CAL-06,img_014,cau_hoi_mo,Ngưỡng conf tự chấp nhận,Không đặt; duyệt mọi box,"3: conf chỉ để xếp thứ tự",v1.1
+CAL-07,img_017,loi_may,Tuk-tuk / xích lô bị gọi car / bicycle / truck hoặc chia 2 nửa box,1 box three_wheeler cho cả xe + mui,"2: three_wheeler",v1.1
+CAL-08,img_014,loi_may,"Quang gánh, giá bưu thiếp, vệt sáng bị gán là xe",Không gán,"2: thêm vào ""Không gồm""",v1.1
+CAL-09,img_035,self_check,ignore_region phủ xích lô rõ (QC),ignore_region không phủ vật rõ,"2: ignore_region",v1.1
+CAL-10,img_034,bay_lot,2 bẫy box lỏng bị lọt,Kiểm đủ 4 cạnh mỗi box,"4.1.1 + checklist bước 4",v1.1
+CAL-11,img_024,can_review,Xe van chở khách: bus hay car,≥ ~10 chỗ (thân dài cao) là bus; minivan gia đình là car,"2: bus / car",v1.1

@@ -1,1 +1,3 @@
 step,images,minutes,note
+batch_review,24,90,"445 pre boxes: 24 deleted, 10 relabeled, 29 boxes tightened/fixed, 79 added (incl. 18 ignore_region), 57 can_review"
+gold_manual,4,40,"4 ảnh gold, 60 đối tượng, gán tay từ đầu (~10 phút/ảnh)"

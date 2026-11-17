@@ -1,0 +1,16 @@
+{
+ "taxonomy_version": "v1.0",
+ "images": 24,
+ "objects": 500,
+ "per_class": {
+  "person": 262,
+  "motorbike": 126,
+  "bicycle": 11,
+  "truck": 5,
+  "three_wheeler": 21,
+  "car": 51,
+  "ignore_region": 18,
+  "bus": 6
+ },
+ "images_replaced_by_qc_fix": []
+}
